@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: linear-gradient(to right, #00c6ff, #0072ff);
+  height: auto;
+  width: 100%;
+  height: 100vh;
+  padding-top: 40px;
+  position: relative;
+}
+
+.svg {
+  height: 40px;
+  width: 40px;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  color: #1c77ff;
+}
+
+.cloud-svg {
+  width: 200px;
+  top: 0px;
+  left: 170px;
+  height: 200px;
+  position: absolute;
+}
+
+.cloudy {
+  width: 200px;
+  top: 0px;
+  left: 100px;
+  height: 200px;
+  position: absolute;
+}
+
+.form {
+  width: 630px;
+  margin-top: 100px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  text-align: left;
+  padding: 40px 60px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.Welcome {
+  font-size: 26px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+label {
+  color: #aaa;
+  display: inline-block;
+  margin: 25px 0 15px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+input,
+select {
+  display: block;
+  padding: 10px 6px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+}
+input[type="checkbox"] {
+  display: inline-block;
+  width: 16px;
+  margin: 0 10px 0 0;
+  position: relative;
+  top: 2px;
+  font-family: "Poppins", sans-serif;
+}
+.pill {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+  padding: 6px 12px;
+  background: #eee;
+  border-radius: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #777;
+  cursor: pointer;
+}
+button {
+  background: #0b6dff;
+  border: 0;
+  padding: 12px 24px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.submit {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.account {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+}
+
+.sign-up-text {
+  text-decoration: none;
+  color: #0072ff;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}

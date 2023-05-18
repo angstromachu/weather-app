@@ -5,7 +5,7 @@ import { FaArrowUp, FaArrowDown, FaWind } from "react-icons/fa";
 import { BiHappy } from "react-icons/bi";
 import { MdCompress, MdOutlineWaterDrop } from "react-icons/md";
 
-const Descriptions = ({ weather, units }) => {
+const Descriptions = ({ weather, units, linear }) => {
   const tempUnit = units === "metric" ? "°C" : "°F";
   const windUnit = units === "metric" ? "m/s" : "m/h";
 
@@ -56,7 +56,7 @@ const Descriptions = ({ weather, units }) => {
   return (
     <div className="section section__descriptions">
       {cards.map(({ id, icon, title, data, unit }) => (
-        <div key={id} className="card">
+        <div key={id} className="card" style={{ background: `${linear}` }}>
           <div className="description__card-icon">
             {icon}
             <small>{title}</small>
