@@ -12,7 +12,6 @@ const cookieparser = require("cookie-parser");
 
 const session = require("express-session");
 const bodyparser = require("body-parser");
-// const LocalStrategy = require("passport-local");
 
 const start = async () => {
   try {
@@ -68,11 +67,11 @@ app.post("/api/login", async (req, res) => {
 
 app.post("/api/register", async (req, res) => {
   try {
-    // const user = Product.model.create({
-    //   name: req.body.name,
-    //   email: req.body.email,
-    //   password: req.body.password,
-    // });
+    const user = Product.model.create({
+      name: req.body.name,
+      email: req.body.email,
+      password: req.body.password,
+    });
     res.send({ success: true });
   } catch {
     res.send({ success: false });
